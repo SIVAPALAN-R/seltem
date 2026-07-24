@@ -63,4 +63,13 @@ arrayName.push(value);     Push-->ADD value END
 arrayName.pop();           Pop --> REMOVE Value END
 arrayName.shift();         Shift --> REMOVE Value START
 arrayName.unshift(value);  Unshift --> ADD Value START
+
+
+| Method      | START / END | Add / Remove | Returns         |
+| ----------- | ----------- | ------------ | --------------- |
+| `push()`    | END         | ➕ Add        | New Length      |
+| `pop()`     | END         | ➖ Remove     | Removed Element |
+| `unshift()` | START       | ➕ Add        | New Length      |
+| `shift()`   | START       | ➖ Remove     | Removed Element |
+
 */
